@@ -1,14 +1,44 @@
-## Overview
+# Euskal Beacons
 
-This is an Android Studio reference app for the AndroidBeaconLibrary supporting AltBeacon compatible devices
+![Euskal-Beacons](https://raw.githubusercontent.com/irontec/euskal-beacons/master/documents/result.png)
 
-If you are looking for an Eclipse reference project, see the eclipse branch.
+Applicación para trabajar con beacons usada en la charla de la Euskal Encounter 2015.
 
-## Project Setup
+### Instalación
 
-1. [Install Gradle](http://www.gradle.org/installation) version 2.2.1
-2. Install [Android Studio](https://developer.android.com/sdk/installing/studio.html) 1.0.1
-3. Install Google Android SDKs (API 21) (or install Android Studio which includes them)
-4. In this project directory, edit `local.properties`, and give it a line that
-   specifies the path to your Android SDK. (e.g. `sdk.dir=/Applications/Android
-   Studio.app/sdk`)
+Para hacer un build del proyecto sigue los siguientes pasos:
+
+- Abre Android Studio
+- Haz click en "Import Project"
+- Espera a que se resuelvan las dependencias
+- Listo
+
+### Contribuir
+
+Si tienes alguina corrección, mejora o cualquier cosa que desees modificar, mandanos un PR con los cambios, lo revisaremos y haremos un merge :smile:
+
+- Haz un Fork
+- Crea un brach para tu feature (git checkout -b my-new-feature)
+- Comitea los cambios (git commit -am 'Add some feature')
+- Haz Push al branch (git push origin my-new-feature)
+- Crea un Pull Request
+
+### License
+
+[EUPL v1.1](https://github.com/irontec/euskal-beacons/blob/master/LICENSE.txt)
+
+```
+Copyright 2015 Irontec SL
+
+Licensed under the EUPL, Version 1.1 or - as soon they will be approved by the European
+Commission - subsequent versions of the EUPL (the "Licence"); You may not use this work
+except in compliance with the Licence.
+
+You may obtain a copy of the Licence at:
+http://ec.europa.eu/idabc/eupl.html
+
+Unless required by applicable law or agreed to in writing, software distributed under 
+the Licence is distributed on an "AS IS" basis, WITHOUT WARRANTIES OR CONDITIONS OF 
+ANY KIND, either express or implied. See the Licence for the specific language 
+governing permissions and limitations under the Licence.
+```
